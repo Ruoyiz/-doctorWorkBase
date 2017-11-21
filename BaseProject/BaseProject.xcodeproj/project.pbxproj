@@ -121,8 +121,6 @@
 		04112D1E1FC3F7EB00280587 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				04112D211FC3F81000280587 /* View */,
-				04112D201FC3F7FE00280587 /* Model */,
 				04112D1F1FC3F7F400280587 /* ViewController */,
 			);
 			path = "首页";
@@ -135,20 +133,6 @@
 				04112D321FC3FB1300280587 /* YZFirstPageViewController.m */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		04112D201FC3F7FE00280587 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		04112D211FC3F81000280587 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		04112D2E1FC3FA5C00280587 /* 扩展 */ = {
