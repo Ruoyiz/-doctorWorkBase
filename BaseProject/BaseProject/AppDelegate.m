@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "YZFirstPageViewController.h"
+#import "YZNavigationViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
-    ViewController *vc = [[ViewController alloc]init];
-    [self.window setRootViewController:vc];
+    YZFirstPageViewController *vc = [[YZFirstPageViewController alloc]init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self.window setRootViewController:nc];
     self.window.backgroundColor = [UIColor purpleColor];
     [self.window makeKeyAndVisible];
     

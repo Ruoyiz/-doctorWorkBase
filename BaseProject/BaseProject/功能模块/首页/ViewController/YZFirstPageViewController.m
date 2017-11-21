@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.myTitle = @"首页";
+    
 }
 
 - (void)didReceiveMemoryWarning {
